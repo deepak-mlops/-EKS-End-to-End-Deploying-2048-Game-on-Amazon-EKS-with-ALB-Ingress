@@ -1,0 +1,17 @@
+# AWS / kube local artifacts
+.kube/
+*.pem
+*.key
+kubeconfig
+
+# Terraform (if added later)
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IAM policy downloaded during setup (regenerate via docs/04-alb-controller.md)
+iam_policy.json
